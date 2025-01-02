@@ -2,7 +2,7 @@
   <h2 style="border-bottom: 1px solid #d8dee4;"> ⚾KBO 홈페이지 리뉴얼 팀 프로젝트⚾ </h2>
   <div align="center">
     <img width="70%" src="https://github.com/user-attachments/assets/caf16d15-f543-4252-9541-e4a55856562e"/>
-    <p>🖥 <a href="https://curmemn.github.io/renewal-project-kbo/">리뉴얼 데모 사이트 바로가기</a> 📱</p>
+    <p>🖥 <a href="https://curmemn-renewal-kbo.netlify.app/">리뉴얼 데모 사이트 바로가기</a> 📱</p>
   </div>
   <div style="text-align: left;"> 
     <ul>
@@ -61,10 +61,9 @@
         <h2 style="border-bottom: 1px solid #d8dee4;"> ⚙ 주요 기능 ⚙</h2>
         <h3>📰메인 페이지📰</h3>
         <h3>풀페이지 스크롤 이벤트 구현</h3>
-        <img width="85%" src=""/>
+        <img width="85%" src="https://github.com/user-attachments/assets/1284cc53-7c95-42e5-805f-6e8f6fb79e89"/>
         <ul>
         <li>각 섹션 별로 풀페이지로 스크롤되는 이벤트를 플러그인 없이 vanilla js로 구현했습니다.</li>
-        <li></li>
         </ul>
         <h3>📌 영상 자동 재생 및 내비게이션 구현</h3>
         <img width="85%" src="https://github.com/user-attachments/assets/244d00ac-079f-4902-862b-44d60dc22eff" />
@@ -85,16 +84,24 @@
         </ul>
         <h3>📌 무한 재생 슬라이드</h3>
         <img width="85%" src="https://github.com/user-attachments/assets/4df45122-7460-4bca-9050-0858dc242ae3" />
-
+        <ul>
+            <li>설명 추후 추가</li>
+        </ul>
         <h3>📌 하이라이트 영상 좌우 회전문 슬라이드</h3>
         <img width="85%" src="https://github.com/user-attachments/assets/f0fd21a4-8022-45de-8b1b-3fba780f1ebe" />
-
+        <ul>
+            <li>설명 추후 추가</li>
+        </ul>
         <h3>📌 SNS 섹션 내부 스크롤 이벤트</h3>
         <img width="85%" src="https://github.com/user-attachments/assets/29f1baf5-d4fc-4b9d-be1e-00ace6fe3d23" />
-
+        <ul>
+            <li>설명 추후 추가</li>
+        </ul>
         <h3>📌 버튼 호버 시 슬라이드 기능 구현</h3>
         <img width="85%" src="https://github.com/user-attachments/assets/0bebb77e-4d16-4643-8c47-2a479c8e34ad" />
-
+        <ul>
+            <li>설명 추후 추가</li>
+        </ul>
         <h3>📰반응형📰</h3>
         <h3>📌 메인 페이지</h3>
         <ul>
