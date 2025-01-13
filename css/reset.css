@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   outline: none;
   font-weight: 400;
 }
@@ -30,4 +29,4 @@ li {
 
 html {
   scroll-behavior: smooth;
-}
+}/*# sourceMappingURL=reset.css.map */

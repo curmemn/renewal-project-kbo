@@ -1,5 +1,6 @@
 @charset "UTF-8";
-/*Import Local Scss Files*/ /* Font Icon : Bootstrap Icons */
+/*Import Local Scss Files*/
+/* Font Icon : Bootstrap Icons */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 /* Fontawesome 6.6 */
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css");
@@ -40,8 +41,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   outline: none;
   font-weight: 400;
 }
@@ -85,12 +85,8 @@ html {
     height: 1600px;
   }
   .sub-body section.calendar-container .calendar-inner .content-box .calendar-header {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     gap: 0;
     width: 100vw;
   }
@@ -120,15 +116,9 @@ html {
     width: 86px;
     height: 80px;
     font-weight: 500;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     margin-left: 4px;
     padding: 7px 0 0 34px;
   }
@@ -136,8 +126,6 @@ html {
     display: none;
   }
   .sub-body section.calendar-container .calendar-inner .content-box .calendar-dates .date .games {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
   }
   .sub-body section.calendar-container .calendar-inner .content-box .calendar-dates .date .games .status1-dot {
@@ -149,17 +137,10 @@ html {
     position: absolute;
     bottom: 5%;
     left: 60%;
-    -webkit-transform: translateX(-60%);
-            transform: translateX(-60%);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    transform: translateX(-60%);
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
   .sub-body section.calendar-container .calendar-inner .content-box .calendar-dates .date .games .status1-dot::before {
     content: "\f287";
@@ -176,17 +157,10 @@ html {
     position: absolute;
     bottom: 5%;
     left: 40%;
-    -webkit-transform: translateX(-40%);
-            transform: translateX(-40%);
-    display: -webkit-box;
-    display: -ms-flexbox;
+    transform: translateX(-40%);
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
   }
   .sub-body section.calendar-container .calendar-inner .content-box .calendar-dates .date .games .normalgame-dot::before {
     content: "\f287";
@@ -196,12 +170,8 @@ html {
   }
   .sub-body section.calendar-container .calendar-inner .content-box .circle-wrap {
     width: 100vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    justify-content: flex-end;
   }
   .sub-body section.calendar-container .calendar-inner .content-box .circle-wrap span {
     margin: 30px 50px 0 0;
@@ -218,8 +188,7 @@ html {
     color: #06ACED;
     left: -30%;
     top: 50%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
   }
   .sub-body section.calendar-container .calendar-inner .content-box .circle-wrap span:nth-child(2) {
     position: relative;
@@ -232,15 +201,12 @@ html {
     color: #EA1E23;
     left: -30%;
     top: 50%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
   }
   .sub-body section.calendar-container .calendar-inner .content-box .selected-date-details {
     margin-top: 90px;
     display: block;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
   }
   .sub-body section.calendar-container .calendar-inner .content-box .selected-date-details .game-info {
     width: 100vw;
@@ -267,8 +233,7 @@ html {
     background: url(../images/subcalendar-cancle.png);
     top: 50%;
     left: 5%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
   }
   .sub-body section.calendar-container .calendar-inner .content-box .selected-date-details .game-info .normalgame {
     width: 75%;
@@ -288,8 +253,7 @@ html {
     background: url(../images/subcalendar-result.png);
     top: 50%;
     left: 5%;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+    transform: translateY(-50%);
   }
   .sub-body section.calendar-container .calendar-inner .content-box .selected-date-details .date-detail-wrap {
     width: 100px;
@@ -313,9 +277,7 @@ html {
     overflow-x: hidden;
   }
   header {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     padding: 0 30px;
     overflow: hidden;
   }
@@ -326,8 +288,7 @@ html {
     width: inherit;
     height: inherit;
     background-color: rgba(0, 0, 0, 0.2);
-    -webkit-backdrop-filter: blur(10px);
-            backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     top: 0;
     left: 0;
   }
@@ -346,8 +307,6 @@ html {
   }
   header .mobile-nav .mobile-nav-btn.commonBtn {
     display: block;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
     width: fit-content;
     margin: auto;
     margin-top: 40px;
@@ -366,8 +325,6 @@ html {
     font-size: 20px;
   }
   .match {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
     padding: 60px 0;
   }
@@ -383,21 +340,14 @@ html {
     white-space: nowrap;
   }
   .match .match-inner .match-box {
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
   }
   .match .match-inner .match-box#regular-season {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .match .match-inner .match-box#regular-season .right-box {
     padding: 7.161458vw;
     padding-top: 30px;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
     padding-bottom: 1.953125vw;
   }
@@ -423,8 +373,6 @@ html {
   .match .match-inner .match-box#regular-season .left-box {
     padding: 7.161458vw;
     padding-top: 30px;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
   }
   .match .match-inner .match-box#regular-season .left-box .match-title {
@@ -474,8 +422,6 @@ html {
   .match .match-inner .match-box#post-season {
     padding: 7.161458vw;
     padding-top: 30px;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
     padding-bottom: 1.953125vw;
   }
@@ -503,8 +449,7 @@ html {
     min-width: unset;
     max-width: 19.53125vw;
     height: 26.0416vw;
-    -webkit-transform: translateY(-50px);
-            transform: translateY(-50px);
+    transform: translateY(-50px);
   }
   .match .match-inner .match-box#post-season .post-season-match .match-detail-content .match-detail-score .match-detail-schedule {
     width: 200px;
@@ -518,18 +463,14 @@ html {
   }
   .match .match-inner .match-box#post-season .post-season-match .match-detail-content .match-detail-score .match-detail-schedule .match-detail-button {
     gap: 2.6041vw;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .match .match-inner .match-box#post-season .post-season-match .match-detail-content .match-detail-score .match-detail-schedule .match-detail-button span {
     padding: 2.0833vw 5.20833vw;
   }
   .match .match-inner .match-box#post-season .post-season-match .match-detail-content .match-detail-score-time {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
     gap: 2.60416vw;
     position: relative;
     margin-bottom: 30px;
@@ -555,9 +496,7 @@ html {
     font-size: 6.25vw;
   }
   .match .match-inner .match-box#post-season .post-season-match .match-detail-content .match-detail-score-time .match-detail-Dday {
-    -webkit-box-ordinal-group: 4;
-        -ms-flex-order: 3;
-            order: 3;
+    order: 3;
     gap: 6.5104vw;
   }
   .match .match-inner .match-box#post-season .post-season-match .match-detail-content .match-detail-score-time .match-detail-Dday .time-count {
@@ -627,8 +566,7 @@ html {
   }
   .kbo-container .full-page-slider-container section.news .news-inner .news-img-wrap ul {
     height: 51.95vw;
-    -webkit-transform: translateY(40.85%);
-            transform: translateY(40.85%);
+    transform: translateY(40.85%);
     gap: 4.29vw;
     margin-left: 4.29vw;
   }
@@ -669,12 +607,10 @@ html {
     height: 41.5vw;
   }
   .kbo-container .full-page-slider-container section.highlight .highlight-inner .highlight-container .card#first-card {
-    -webkit-transform: translateX(-50%) translateY(-60%);
-            transform: translateX(-50%) translateY(-60%);
+    transform: translateX(-50%) translateY(-60%);
   }
   .kbo-container .full-page-slider-container section.highlight .highlight-inner .highlight-container .card#second-card {
-    -webkit-transform: translateX(calc(-50% + 768px)) translateY(-60%);
-            transform: translateX(calc(-50% + 768px)) translateY(-60%);
+    transform: translateX(calc(-50% + 768px)) translateY(-60%);
   }
   .kbo-container .full-page-slider-container section.highlight .highlight-inner .highlight-container .card#second-card img {
     opacity: 0;
@@ -689,16 +625,14 @@ html {
     opacity: 0;
   }
   .kbo-container .full-page-slider-container section.highlight .highlight-inner .highlight-container .card#sixth-card {
-    -webkit-transform: translateX(calc(-50% - 768px)) translateY(-60%);
-            transform: translateX(calc(-50% - 768px)) translateY(-60%);
+    transform: translateX(calc(-50% - 768px)) translateY(-60%);
   }
   .kbo-container .full-page-slider-container section.highlight .highlight-inner .highlight-container .card#sixth-card img {
     opacity: 0;
   }
   .kbo-container .full-page-slider-container section.highlight .highlight-inner .highlight-container .bi {
     font-size: 55px;
-    -webkit-transform: translateY(-10vw);
-            transform: translateY(-10vw);
+    transform: translateY(-10vw);
     width: 55px;
     height: 55px;
   }
@@ -714,19 +648,11 @@ html {
   .kbo-container .full-page-slider-container section.team .intro-team-box {
     width: 100%;
     height: 312.5vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-line-pack: center;
-        align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     gap: 3.125vw 2.604vw;
   }
   .kbo-container .full-page-slider-container section.team .intro-team-box .team-box {
@@ -734,7 +660,6 @@ html {
     height: 49.5vw;
     border-radius: 3.255vw;
     overflow: hidden;
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0.2)));
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
   }
   .kbo-container .full-page-slider-container section.team .intro-team-box .team-box > img {
@@ -743,22 +668,13 @@ html {
   }
   .kbo-container .full-page-slider-container section.team .intro-team-box .team-box .text-box {
     color: #FFFFFF;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex-direction: column;
+    justify-content: center;
     height: 26.95vw;
     padding: 0 2.604vw;
   }
   .kbo-container .full-page-slider-container section.team .intro-team-box .team-box .text-box .title-box {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 0.65104vw;
   }
@@ -784,7 +700,6 @@ html {
     font-family: "KBODiaGothic";
     position: relative;
     opacity: 1;
-    -webkit-transition: opacity 0.5s ease;
     transition: opacity 0.5s ease;
   }
   .kbo-container .full-page-slider-container section.team .intro-team-box .team-box .text-box .commonBtn.team-sns {
@@ -792,21 +707,14 @@ html {
   }
   .kbo-container .full-page-slider-container section.team .intro-team-box .team-box .text-box .commonBtn.hidden {
     opacity: 0;
-    -webkit-transition: opacity 0.5s ease;
     transition: opacity 0.5s ease;
   }
   .kbo-container .full-page-slider-container section.team .intro-team-box .team-box .text-box .commonBtn span {
     width: inherit;
     height: 6.5104166vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     font-size: 2.34375vw;
     font-weight: 700;
     position: relative;
@@ -834,9 +742,7 @@ html {
     left: -650px;
     top: 0;
     background-color: #B19F77;
-    -webkit-transform: skew(-45deg);
-            transform: skew(-45deg);
-    -webkit-transition: 0.3s ease;
+    transform: skew(-45deg);
     transition: 0.3s ease;
     z-index: -1;
   }
@@ -847,27 +753,17 @@ html {
     width: 91.1458vw;
     height: 10.41666vw;
     border-radius: 3.255vw;
-    background: -webkit-gradient(linear, left bottom, left top, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0.2)));
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2));
     display: grid;
     grid-template-columns: 1fr 1px 1fr 1px 1fr 1px 1fr 1px 1fr 1px 1fr 1px 1fr 1px 1fr 1fr;
     grid-template-areas: "naverTV line1 kakaoTV line2 naver line3 instagram line4 youtube line5 tictok topline facebook bottomline kbo kbo";
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
   }
   .kbo-container .full-page-slider-container section.team .intro-team-box .sns-box .sns-icon-box {
     height: 10.41666vw;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-transition: 0.3s;
+    justify-content: center;
+    align-items: center;
     transition: 0.3s;
     background-position: center center;
   }
@@ -911,11 +807,9 @@ html {
     content: "";
     width: 100%;
     height: 100%;
-    background: -webkit-gradient(linear, left top, left bottom, from(#06EE69), to(#02B766));
     background: linear-gradient(#06EE69, #02B766);
     position: absolute;
     opacity: 0;
-    -webkit-transition: 0.3s;
     transition: 0.3s;
   }
   .kbo-container .full-page-slider-container section.team .intro-team-box .sns-box .sns-icon-box.naver-box:hover::after {
@@ -939,7 +833,6 @@ html {
     background: url(../images/sns-instagram-logo-hover.png) no-repeat;
     position: absolute;
     opacity: 0;
-    -webkit-transition: 0.3s;
     transition: 0.3s;
   }
   .kbo-container .full-page-slider-container section.team .intro-team-box .sns-box .sns-icon-box.instagram-box:hover::after {
@@ -1033,17 +926,12 @@ html {
     width: 100vw;
   }
   .kbo-container .full-page-slider-container section.shop .shop-wrap {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     width: 100%;
     height: 179.947916666vw;
     padding: 10.416666vw 0 6.640625vw 0;
     gap: 2.86458333vw;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    justify-content: flex-start;
   }
   .kbo-container .full-page-slider-container section.shop .shop-wrap .shop-left {
     width: 100%;
@@ -1073,8 +961,7 @@ html {
   }
   .kbo-container .full-page-slider-container section.shop .shop-wrap .shop-left .commonBtn {
     left: 50%;
-    -webkit-transform: translate(-50%, 0);
-            transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
     bottom: 0;
     width: 30.989583333vw;
     height: 6.5104166667vw;
@@ -1088,8 +975,7 @@ html {
   .kbo-container .full-page-slider-container section.shop .shop-wrap .shop-center {
     width: 92.1875vw;
     height: 92.1875vw;
-    -webkit-transform: unset;
-            transform: unset;
+    transform: unset;
     position: relative;
     left: 0;
     margin-top: 3.255208333vw;
@@ -1117,14 +1003,9 @@ html {
   footer.footer .footer-wrap {
     width: calc(100% - 7.812vw);
     height: 78.64583333vw;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     gap: 11.458333vw;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    justify-content: flex-start;
   }
   footer.footer .footer-wrap .footer-left {
     height: 35.15625vw;
@@ -1164,13 +1045,8 @@ html {
     margin-top: 5.98958333vw;
     padding-top: 0;
     width: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    flex-direction: column-reverse;
+    align-items: flex-end;
     gap: 3.515625vw;
   }
   footer.footer .footer-bottom .footer-bottom-left {
@@ -1296,11 +1172,8 @@ html {
   .sub-body .weather-container .select-team {
     width: 100%;
     padding: 20px;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 7.8125vw;
     margin-bottom: 0;
   }
@@ -1335,8 +1208,6 @@ html {
   }
   .sub-body .weather-container .box-wrap .box-info.weather-inner {
     padding: 50px 40px 30px 40px;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
     height: fit-content;
   }
   .sub-body .weather-container .box-wrap .box-info.weather-inner .weather-info .date-temperature {
@@ -1355,16 +1226,11 @@ html {
   }
   .sub-body .weather-container .box-wrap .box-info.weather-inner .weather-detail {
     width: 100%;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .sub-body .weather-container .box-wrap .box-info.weather-inner .weather-detail .weather-each {
-    -webkit-box-flex: 0;
-        -ms-flex: none;
-            flex: none;
+    flex: none;
     width: 33%;
     font-size: 20px;
     margin-bottom: 20px;
@@ -1398,13 +1264,8 @@ html {
     white-space: nowrap;
   }
   body.news .news-wrap .news-inner {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     width: 80%;
   }
   body.news .news-wrap .news-inner .news-menu {
@@ -1417,22 +1278,13 @@ html {
     margin-top: 32px;
   }
   body.news .news-wrap .news-inner .news-sec1 .news-sec1-desc {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
   }
   body.news .news-wrap .news-inner .news-sec1 .news-sec1-desc h2 {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+    order: 2;
     font-size: 28px;
     margin-bottom: 11px;
     text-align: center;
@@ -1444,9 +1296,7 @@ html {
     -webkit-line-clamp: 1;
   }
   body.news .news-wrap .news-inner .news-sec1 .news-sec1-desc .news-sec1-desc-left {
-    -webkit-box-ordinal-group: 4;
-        -ms-flex-order: 3;
-            order: 3;
+    order: 3;
   }
   body.news .news-wrap .news-inner .news-sec1 .news-sec1-desc .news-sec1-desc-left p {
     font-size: 17px;
@@ -1590,10 +1440,7 @@ html {
 }
 @media (max-width: 501px) {
   .sub-body .weather-container .box-wrap #address {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     gap: 10px;
   }
   .sub-body .weather-container .box-wrap .box-info.weather-inner .weather-detail .weather-each {
@@ -1608,4 +1455,4 @@ html {
   .sub-body .weather-container .box-wrap .box-info.detail-inner {
     top: 107px;
   }
-}
+}/*# sourceMappingURL=responsive-tablet.css.map */
